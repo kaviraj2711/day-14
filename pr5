@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int students, teams;
+   
+   
+    scanf("%d %d", &students, &teams);
+   
+    
+    int perTeam = students / teams;
+    int leftOut = students % teams;
+   
+    
+    printf("%d\n%d\n", perTeam, leftOut);
+   
+    return 0;
+}
